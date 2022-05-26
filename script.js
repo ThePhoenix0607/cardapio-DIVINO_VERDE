@@ -183,5 +183,8 @@ var cardapio= [
 
 var cardapioSection = document.getElementById("cardapio");
 
+function createCardapio(cardapio) {}
+
+function setCardapioOnScreen() {}
 
 console.log(cardapio)
