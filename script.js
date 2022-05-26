@@ -181,4 +181,7 @@ var cardapio= [
     ]
 ]
 
+var cardapioSection = document.getElementById("cardapio");
+
+
 console.log(cardapio)
