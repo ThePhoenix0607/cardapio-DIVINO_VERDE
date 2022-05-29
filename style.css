@@ -24,8 +24,31 @@ img {
     border: 3px solid black;
 }
 
-.titulo {
+.titulo h1{
     font-weight: 400;
     font-size: 36px;
 }
 
+/* Menu area */
+
+.menu-content {
+    width: 100%;
+}
+.menu-topic {
+    width: 80%;
+    margin: 16px auto;
+    
+
+    background: #F3F3F3;
+    border-radius: 32px;
+    border: 5px solid black;    /* width | style | color */
+
+}
+.topic-title {
+    display: flex;
+    justify-content: flex-start;
+}
+.product-name {
+    display: flex;
+    justify-content: space-between;
+}
