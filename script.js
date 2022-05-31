@@ -183,7 +183,16 @@ var cardapio= [
 
 var cardapioSection = document.getElementById("cardapio");
 
-function createCardapio(cardapio) {}
+function createCardapio(cardapio) {
+    for (let index = 0; index < array.length; index++) {
+        //Add a card in our menu area
+        for (let item = 0; item < array.length; item++) {
+            //Add itens in our card
+            
+        }
+        
+    }
+}
 
 function setCardapioOnScreen() {}
 
