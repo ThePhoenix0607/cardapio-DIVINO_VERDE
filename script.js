@@ -187,12 +187,13 @@ function createCardapio(cardapio) {
     
     let menuHtmlComponent
     
-    for (let index = 0; index < array.length; index++) {
+    for (let index = 0; index < cardapio.length; index++) {
         //Add a card in our menu area
-        for (let item = 0; item < array.length; item++) {
+        for (let item = 0; item < cardapio[item].length; item++) {
             //Add itens in our card
-            
+            console.log(cardapio[item])
         }
+        console.log("")
     }
 
     return menuHtmlComponent
